@@ -1,4 +1,4 @@
-import { Image, StyleSheet, Text, View } from 'react-native'
+import { Image, StyleSheet, Text, View } from 'react-native';
 
 const Movie = ({ title, poster, description }) => {
   return (
@@ -7,10 +7,10 @@ const Movie = ({ title, poster, description }) => {
       <Image source={{ uri: poster }} style={styles.poster} />
       <Text style={styles.description}>{description}</Text>
     </View>
-  )
-}
+  );
+};
 
-export default Movie
+export default Movie;
 
 const styles = StyleSheet.create({
   container: {
@@ -33,4 +33,4 @@ const styles = StyleSheet.create({
     fontSize: 14,
     color: '#555',
   },
-})
+});

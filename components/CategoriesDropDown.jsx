@@ -1,13 +1,13 @@
-import { useState } from 'react'
-import { StyleSheet, View, Text, TouchableOpacity, FlatList } from 'react-native'
+import { useState } from 'react';
+import { StyleSheet, View, Text, TouchableOpacity, FlatList } from 'react-native';
 
 const CategoriesDropDown = ({ categories, onSelectCategory, selectedCategory }) => {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
 
   const handleSelectCategory = (category) => {
-    onSelectCategory(category)
-    setIsOpen(false)
-  }
+    onSelectCategory(category);
+    setIsOpen(false);
+  };
 
   return (
     <View style={styles.container}>
@@ -40,10 +40,10 @@ const CategoriesDropDown = ({ categories, onSelectCategory, selectedCategory }) 
         </View>
       )}
     </View>
-  )
-}
+  );
+};
 
-export default CategoriesDropDown
+export default CategoriesDropDown;
 
 const styles = StyleSheet.create({
   container: {
@@ -106,4 +106,4 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#007AFF',
   },
-})
+});

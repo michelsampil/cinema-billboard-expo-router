@@ -75,8 +75,8 @@ export default function AddMovie() {
 <Stack.Screen
   name="add-movie"
   options={{
-    presentation: "modal",
-    title: "Agregar Película",
+    presentation: 'modal',
+    title: 'Agregar Película',
   }}
 />;
 ```
@@ -167,7 +167,7 @@ app/
 ### Ejemplo de Navegación
 
 ```javascript
-import { useRouter } from "expo-router";
+import { useRouter } from 'expo-router';
 
 const router = useRouter();
 
@@ -175,7 +175,7 @@ const router = useRouter();
 router.push(`/movie/${movieId}`);
 
 // Navegar a modal
-router.push("/add-movie");
+router.push('/add-movie');
 
 // Volver atrás
 router.back();
@@ -184,7 +184,7 @@ router.back();
 ### Ejemplo de Obtener Parámetros
 
 ```javascript
-import { useLocalSearchParams } from "expo-router";
+import { useLocalSearchParams } from 'expo-router';
 
 export default function MovieDetails() {
   const { id } = useLocalSearchParams();
