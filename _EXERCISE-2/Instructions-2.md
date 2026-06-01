@@ -91,6 +91,43 @@ export default function AddMovie() {
 
 ---
 
+---
+
+## 🌟 Bonus (Opcional)
+
+### 1. Diseño Responsive con `useWindowDimensions`
+
+Utiliza el hook `useWindowDimensions()` para adaptar la interfaz a distintos tamaños de pantalla.
+
+**Ideas de implementación:**
+
+- Ajustar el ancho de las tarjetas de películas según el tamaño del dispositivo.
+- Mostrar más contenido en tablets o pantallas grandes.
+- Adaptar la cantidad de elementos visibles en listas horizontales.
+
+**Objetivo:**
+
+Comprender cómo crear interfaces responsivas sin depender de tamaños fijos.
+
+---
+
+### 2. Persistencia Local con AsyncStorage
+
+Utiliza `@react-native-async-storage/async-storage` para almacenar información localmente.
+
+**Ideas de implementación:**
+
+- Guardar la última categoría seleccionada.
+- Recordar la última película visitada.
+- Implementar una lista de películas favoritas.
+- Mantener preferencias del usuario entre sesiones.
+
+**Objetivo:**
+
+Aprender a persistir datos localmente para mejorar la experiencia de usuario.
+
+---
+
 ## ✅ Funcionalidades a Mantener
 
 Todas estas funcionalidades del ejercicio anterior deben seguir funcionando:
